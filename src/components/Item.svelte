@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Item } from "./types/Item.types";
+  import type { Item } from "./types/Item.types";
   export let header: Item["header"] = "";
   export let date: Item["date"] = { start: "" };
   export let title: Item["title"] = "";

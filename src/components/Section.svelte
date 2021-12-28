@@ -1,7 +1,7 @@
 <script lang="ts">
   import Divider from "./Divider.svelte";
   import Item from "./Item.svelte";
-  import { Item as ItemType } from "./types/Item.types";
+  import type { Item as ItemType } from "./types/Item.types";
   export let title = "";
   export let items: ItemType[] = [];
 </script>
